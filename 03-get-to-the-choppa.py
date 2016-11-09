@@ -5,10 +5,6 @@ import heapq
 from collections import deque
 
 
-import heapq
-from collections import deque
-
-
 def heuristic(node, end_node):
     return abs(node.position.x - end_node.position.x) + abs(node.position.y - end_node.position.y)
 
